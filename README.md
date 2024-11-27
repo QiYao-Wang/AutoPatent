@@ -24,9 +24,6 @@
  <br>
 </div>
 
-<iframe height="498" width="510" src="/videos/AutoPatent-Demo-Version1.mp4"></iframe>
-
-
 ## 📢 News
 
 - [2024-08-30] Research Beginning.
