@@ -6,11 +6,11 @@
     <br>
     *Equal Contribution, † Corresponding Authors.
     <br>
-    <sup>1</sup>Shenzhen InstituteofAdvanced Technology, ChineseAcademy ofSciences
+    <sup>1</sup>Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
     <br>
     <sup>2</sup>Dalian University of Technology
     <br>
-    <sup>3</sup>SouthernUniversity ofScienceand Technology
+    <sup>3</sup>Southern University of Scienceand Technology
     <br>
 </p>
 
