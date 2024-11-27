@@ -24,7 +24,7 @@
  <br>
 </div>
 
-<iframe height="498" width="510" src="./static/videos/AutoPatent-Demo-Version1.mp4"></iframe>
+<iframe height="498" width="510" src="/videos/AutoPatent-Demo-Version1.mp4"></iframe>
 
 
 ## 📢 News
