@@ -1,4 +1,4 @@
-<h3 align="center"><strong>AutoPatent</strong></h3>
+<h2 align="center"><strong>AutoPatent</strong></h2>
 
   <p align="center">
     <a href="https://QiYao-Wang.github.io/">Qiyao Wang</a><sup>1,2*</sup>,
