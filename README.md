@@ -25,7 +25,7 @@
 </div>
 
 
-<video src="/videos/AutoPatent-Demo-Version1.mp4" autoplay="true" controls="controls" height="240">
+<video src="./static/videos/AutoPatent-Demo-Version1.mp4" autoplay="true" controls="controls" height="240">
 </video>
 
 
