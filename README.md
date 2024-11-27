@@ -24,10 +24,7 @@
  <br>
 </div>
 
-<video width="640" height="360" controls>
-  <source src="static/vedios/AutoPatent-Demo-Version1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[AutoPatent Demo Video](static/vedios/AutoPatent-Demo-Version1.mp4)
 
 ## 📢 News
 
