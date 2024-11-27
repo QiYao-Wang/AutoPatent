@@ -1,12 +1,14 @@
 <h3 align="center"><strong>AutoPatent</strong></h3>
 
   <p align="center">
-    <a href="https://QiYao-Wang.github.io/">Qiyao Wang*</a>,
-    <a href="https://nishiwen1214.github.io/">Shiwen Ni*</a>,
+    <a href="https://QiYao-Wang.github.io/">Qiyao Wang<sup>1,2*</sup></a>,
+    <a href="https://nishiwen1214.github.io/">Shiwen Ni<sup>1*</sup></a>,
     <br>
     *Equal Contribution.
     <br>
     <sup>1</sup>Shenzhen InstituteofAdvanced Technology, ChineseAcademy ofSciences
+    <sup>2</sup>Dalian University of Technology
+    <sup>3</sup>SouthernUniversity ofScienceand Technology
     <br>
 </p>
 
