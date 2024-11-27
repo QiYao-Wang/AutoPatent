@@ -17,9 +17,9 @@
 <div align="center">
  <a href=''><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <!-- <a href='https://arxiv.org/abs/[]'><img src='https://img.shields.io/badge/arXiv-[]-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
- <a href='https://QiYao-Wang.github.io/AutoPatent/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href='https://QiYao-Wang.github.io/AutoPatent/'><img src='https://img.shields.io/badge/Website-Yellow'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  <a href=''><img src='https://img.shields.io/badge/License-MIT-blue'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- <a href='https://github.com/QiYao-Wang/AutoPatent'><img src="https://visitor-badge.laobi.icu/badge?page_id=ruijiezhu94.motiongs"/></a>
+ <a href=''><img src='https://img.shields.io/badge/Demo-Green'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  <br>
  <br>
 </div>
