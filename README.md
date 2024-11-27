@@ -25,10 +25,9 @@
 </div>
 
 
-
-<video width="320" height="240" controls>
-    <source src="/videos/AutoPatent-Demo-Version1.mp4" type="video/mp4">
+<video src="/videos/AutoPatent-Demo-Version1.mp4" autoplay="true" controls="controls" height="240">
 </video>
+
 
 ## 📢 News
 
