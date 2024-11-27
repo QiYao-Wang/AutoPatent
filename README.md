@@ -4,7 +4,7 @@
     <a href="https://QiYao-Wang.github.io/">Qiyao Wang</a><sup>1,2*</sup>,
     <a href="https://nishiwen1214.github.io/">Shiwen Ni</a><sup>1*</sup>,
     <br>
-    *Equal Contribution.
+    *Equal Contribution, † Corresponding Authors.
     <br>
     <sup>1</sup>Shenzhen InstituteofAdvanced Technology, ChineseAcademy ofSciences
     <br>
