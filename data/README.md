@@ -4,7 +4,7 @@
 
 ### Data Card
 
-Our D2P benchmark comprises 1,933 draft-patent pairs along with additional metadata. These drafts are divided into a training set of 1,500, a validation set of 133, anda test set of 300. More details see our paper please.
+Our D2P benchmark comprises 1,933 draft-patent pairs along with additional metadata. These drafts are divided into a training set of 1,500, a validation set of 133, anda test set of 300. Before using the AutoPatent framework, please download the files from the D2P-Benchmark and complete the necessary configuration. More details see our paper please.
 
 ### File Outline:
 
