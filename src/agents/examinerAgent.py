@@ -1,22 +1,16 @@
+from agent import Agent
+import re
+
+
 class ExaminerAgent(Agent):
     def reviewDraft(self, answer, i):
         system_message = "You are a patent agent responsible for reviewing users' technical drafts, skilled at assessing whether the drafts meet quality standards based on relevant requirements."
         # for question i
-        prompt1 = f"""# Draft: {answer}
-# Requirements: The text of this draft section must include the technical problem solved by the invention. If it is included, just return <Result> Pass </Result>; if it is not included, return <Result> Fail </Result>, and provide a detailed explanation in <Reason> waiting for filling </Reason>.
-Please tell me if this section of the draft meets the quality standards."""
-        prompt2 = f"""# Draft: {answer}
-# Requirements: The text of this draft section must include the background of the technology, the existing technical solutions, the shortcomings of the existing technology, and the advantages of the present invention. If it is included, just return <Result> Pass </Result>; if it is not included, return <Result> Fail </Result>, and provide a detailed explanation in <Reason> waiting for filling </Reason>.
-Please tell me if this section of the draft meets the quality standards."""
-        prompt3 = f"""# Draft: {answer}
-# Requirements: The text of this draft section must include a detailed technical solution, which should describe the specific technical means for implementing the invention. If it is included, just return <Result> Pass </Result>; if it is not included, return <Result> Fail </Result>, and provide a detailed explanation in <Reason> waiting for filling </Reason>.
-Please tell me if this section of the draft meets the quality standards."""
-        prompt4 = f"""# Draft: {answer}
-# Requirements: The text of this draft section must include the key points and protection points of the invention, so that the critical innovations of the technical solution can be distilled and listed in bullet points, such as 1, 2, 3, etc. If it is included, just return <Result> Pass </Result>; if it is not included, return <Result> Fail </Result>, and provide a detailed explanation in <Reason> waiting for filling </Reason>.
-Please tell me if this section of the draft meets the quality standards."""
-        prompt5 = f"""# Draft: {answer}
-# Requirements: The text of this draft section must include the description of the drawings for the invention, where each figure must correspond to its respective drawing description one by one. If it is included, just return <Result> Pass </Result>; if it is not included, return <Result> Fail </Result>, and provide a detailed explanation in <Reason> waiting for filling </Reason>.
-Please tell me if this section of the draft meets the quality standards."""
+        prompt1 = f"""# Draft: {answer}\n# Requirements: The text of this draft section must include the technical problem solved by the invention. If it is included, just return <Result> Pass </Result>; if it is not included, return <Result> Fail </Result>, and provide a detailed explanation in <Reason> waiting for filling </Reason>.\nPlease tell me if this section of the draft meets the quality standards."""
+        prompt2 = f"""# Draft: {answer}\n# Requirements: The text of this draft section must include the background of the technology, the existing technical solutions, the shortcomings of the existing technology, and the advantages of the present invention. If it is included, just return <Result> Pass </Result>; if it is not included, return <Result> Fail </Result>, and provide a detailed explanation in <Reason> waiting for filling </Reason>.\nPlease tell me if this section of the draft meets the quality standards."""
+        prompt3 = f"""# Draft: {answer}\n# Requirements: The text of this draft section must include a detailed technical solution, which should describe the specific technical means for implementing the invention. If it is included, just return <Result> Pass </Result>; if it is not included, return <Result> Fail </Result>, and provide a detailed explanation in <Reason> waiting for filling </Reason>.\nPlease tell me if this section of the draft meets the quality standards."""
+        prompt4 = f"""# Draft: {answer}\n# Requirements: The text of this draft section must include the key points and protection points of the invention, so that the critical innovations of the technical solution can be distilled and listed in bullet points, such as 1, 2, 3, etc. If it is included, just return <Result> Pass </Result>; if it is not included, return <Result> Fail </Result>, and provide a detailed explanation in <Reason> waiting for filling </Reason>.\nPlease tell me if this section of the draft meets the quality standards."""
+        prompt5 = f"""# Draft: {answer}\n# Requirements: The text of this draft section must include the description of the drawings for the invention, where each figure must correspond to its respective drawing description one by one. If it is included, just return <Result> Pass </Result>; if it is not included, return <Result> Fail </Result>, and provide a detailed explanation in <Reason> waiting for filling </Reason>.\nPlease tell me if this section of the draft meets the quality standards."""
         prompts = [prompt1, prompt2, prompt3, prompt4, prompt5]
         user_message = prompts[i - 1]
         response = self.chat(user_message=user_message, system_message=system_message)

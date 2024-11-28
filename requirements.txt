@@ -1,0 +1,10 @@
+vllm==0.6.0
+evaluate
+httpx==0.27.2
+nltk
+numpy
+openai==1.51.2
+pandas
+tiktoken
+tqdm
+pyyaml

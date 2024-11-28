@@ -1,22 +1,8 @@
-class Writer:
-    def __init__(self, client, model_name, temperature=0.5, max_tokens=16384):
-        self.client = client
-        self.model_name = model_name
-        self.temperature = temperature
-        self.max_tokens = max_tokens
+from agent import Agent
+import re
 
-    def chat(self, user_message, system_message=None):
-        completion = self.client.chat.completions.create(
-            model=self.model_name,
-            messages=[
-                {"role": "system", "content": system_message},
-                {"role": "user", "content": user_message}
-            ],
-            temperature=self.temperature,
-            max_tokens=self.max_tokens,
-        )
-        return completion.choices[0].message.content
 
+class Writer(Agent):
     def write(self, draft):
         pass
 
@@ -28,7 +14,7 @@ class TitleWriter(Writer):
         title = self.chat(user_message=user_message, system_message=system_message)
         title_pattern = rf"(?<=<Title>).*?(?=</Title>)"
         title = re.findall(title_pattern, title, re.DOTALL)[0]
-        st.session_state["title"] = title
+        return title
 
 
 class AbstractWriter(Writer):
@@ -38,7 +24,7 @@ class AbstractWriter(Writer):
         abstract = self.chat(user_message=user_message, system_message=system_message)
         abstract_pattern = rf"(?<=<Abstract>).*?(?=</Abstract>)"
         abstract = re.findall(abstract_pattern, abstract, re.DOTALL)[0]
-        st.session_state["abstract"] = abstract
+        return abstract
 
 
 class ClaimsWriter(Writer):
@@ -48,7 +34,7 @@ class ClaimsWriter(Writer):
         claims = self.chat(user_message=user_message, system_message=system_message)
         claims_pattern = rf"(?<=<Claims>).*?(?=</Claims>)"
         claims = re.findall(claims_pattern, claims, re.DOTALL)[0]
-        st.session_state["claims"] = claims
+        return claims
 
 
 class BackgroundWriter(Writer):
@@ -58,11 +44,11 @@ class BackgroundWriter(Writer):
         background = self.chat(user_message=user_message, system_message=system_message)
         background_pattern = rf"(?<=<Background>).*?(?=</Background>)"
         background = re.findall(background_pattern, background, re.DOTALL)[0]
-        st.session_state["background"] = background
+        return background
 
 
 class SummaryWriter(Writer):
-    def write(self):
+    def write(self, draft):
         system_message = "You are an experienced patent attorney, skilled in drafting clear, concise, and well-structured patent summaries. You excel at distilling complex technical inventions into summaries that highlight the key aspects of the invention, ensuring they are easily understood by patent examiners and meet all legal requirements. Your expertise ensures that each summary strikes a balance between technical detail and legal precision, providing a comprehensive yet focused overview of the invention while maintaining coherence and clarity."
         user_message = f"""{draft}\nPlease generate the summary for the patent application based on the above patent draft. The summary should provide a detailed overview of the invention, including the technical field, the problems in the prior art that the invention addresses, and the key technical features of the invention. The summary should explain how the invention solves the identified problems without delving into specific implementation details. Ensure the summary is clear, concise, and focused on the invention's main objectives and advantages.\nPlease output in the following format:\n<Summary>\nthe summary of the patent\n</Summary>"""
         summary = None
@@ -75,7 +61,7 @@ class SummaryWriter(Writer):
             summary_pattern = rf"(?<=<Summary>).*?(?=</Summary>)"
             summary = re.findall(summary_pattern, summary, re.DOTALL)
         summary = summary[0]
-        st.session_state["summary"] = summary
+        return summary
 
 
 class DescriptionWriter(Writer):

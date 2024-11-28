@@ -1,5 +1,5 @@
 class Agent:
-  def __init__(self, client, model_name, temperature=0.5, max_tokens=16384):
+    def __init__(self, client, model_name, temperature=0.5, max_tokens=16384):
         self.client = client
         self.model_name = model_name
         self.temperature = temperature

@@ -1,3 +1,6 @@
+from agent import Agent
+
+
 class PlanningAgent(Agent):
     def plan(self, draft):
         system_message = "You are a patent drafting assistant. Your task is to analyze the provided patent description and organize it into a structured format."
