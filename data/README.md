@@ -11,5 +11,13 @@ Our D2P benchmark comprises 1,933 draft-patent pairs along with additional metad
 - data
   - D2P Benchmark
     - [train.json]()
-    - [valid.json]()
+    - [valid.json](https://huggingface.co/datasets/QiYao-Wang/D2P/blob/main/D2P-Benchmark/valid.json)
     - [test.json]()
+  - SFT Data
+    - [Patent]()
+    - [Title]()
+    - [Abstract]()
+    - [Background]()
+    - [Summary]()
+    - [Claims]()
+    - [PGTree]()
