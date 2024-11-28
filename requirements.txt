@@ -8,3 +8,5 @@ pandas
 tiktoken
 tqdm
 pyyaml
+huggingface_hub
+rouge
