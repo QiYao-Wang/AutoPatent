@@ -3,6 +3,11 @@
   <p align="center">
     <a href="https://QiYao-Wang.github.io/">Qiyao Wang</a><sup>1,2*</sup>,
     <a href="https://nishiwen1214.github.io/">Shiwen Ni</a><sup>1*</sup>,
+    <a>Huaren Liu</a><sup>2</sup>,
+    <a>Guhong Chen</a><sup>1,3</sup>,
+    <a>Shule Lu</a><sup>2</sup>,
+    <a>Yuan Lin</a><sup>2†</sup>,
+    <a>Min Yang</a><sup>1†</sup>
     <br>
     *Equal Contribution, † Corresponding Authors.
     <br>
