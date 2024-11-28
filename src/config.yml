@@ -1,0 +1,39 @@
+Model-series: model_name # We support GPT, Llama3.1, Qwen2.5 and Mistral now.
+
+Pattern: pattern # Own or Test
+
+OpenAI-api-key: sk-xxx # If you use open source model, this does not need to be filled out.
+GPT-model: gpt-model-name
+
+# If you are using an open-source model, ensure that your vLLM API key and model path match the configuration below.
+Title-model: title-model-path
+Title-api: title-api-key
+Title-port: title-port
+
+Abstract-model: abstract-model-path
+Abstract-api: abstract-api-key
+Abstract-port: abstract-port
+
+Background-model: background-model-path
+Background-api: background-api-key
+Background-port: background-port
+
+Claims-model: claims-model-path
+Claims-api: claims-api-key
+Claims-port: claims-port
+
+Summary-model: summary-model-path
+Summary-api: summary-api-key
+Summary-port: summary-port
+
+Plan-model: plan-model-path
+Plan-api: plan-api-key
+Plan-port: plan-port
+
+Description-model: description-model-path
+Description-api: description-api-key
+Description-port: description-port
+
+Examiner-model: examiner-model-path
+Examiner-api: examiner-api-key
+Examiner-port: examiner-port
