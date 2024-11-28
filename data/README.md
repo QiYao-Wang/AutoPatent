@@ -9,14 +9,14 @@ Our D2P benchmark comprises 1,933 draft-patent pairs along with additional metad
 ### File Outline:
 
 - D2P Benchmark
-  - [train.json]()
+  - [train.json](https://huggingface.co/datasets/QiYao-Wang/D2P/blob/main/D2P-Benchmark/train.json)
   - [valid.json](https://huggingface.co/datasets/QiYao-Wang/D2P/blob/main/D2P-Benchmark/valid.json)
-  - [test.json]()
+  - [test.json](https://huggingface.co/datasets/QiYao-Wang/D2P/blob/main/D2P-Benchmark/test.json)
 - SFT Data
-  - [Patent]()
-  - [Title]()
-  - [Abstract]()
-  - [Background]()
-  - [Summary]()
-  - [Claims]()
-  - [PGTree]()
+  - [Patent](https://huggingface.co/datasets/QiYao-Wang/D2P/tree/main/SFT-Data/Patent)
+  - [Title](https://huggingface.co/datasets/QiYao-Wang/D2P/tree/main/SFT-Data/Title)
+  - [Abstract](https://huggingface.co/datasets/QiYao-Wang/D2P/tree/main/SFT-Data/Abstract)
+  - [Background](https://huggingface.co/datasets/QiYao-Wang/D2P/tree/main/SFT-Data/Background)
+  - [Summary](https://huggingface.co/datasets/QiYao-Wang/D2P/tree/main/SFT-Data/Summary)
+  - [Claims](https://huggingface.co/datasets/QiYao-Wang/D2P/tree/main/SFT-Data/Claims)
+  - [PGTree](https://huggingface.co/datasets/QiYao-Wang/D2P/tree/main/SFT-Data/PGTree)
