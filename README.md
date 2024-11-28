@@ -43,9 +43,9 @@
 
 ## 📖 Overview
 
-We introduce a novel and practical task known as \textbf{Draft2Patent}, along with its corresponding D2P benchmark, which challenges LLMs to generate full-length patents averaging 17K tokens based on initial drafts. Patents present a significant challenge to LLMs due to their specialized nature, standardized terminology, and extensive length. 
+We introduce a novel and practical task known as **Draft2Patent**, along with its corresponding **D2P benchmark**, which challenges LLMs to generate full-length patents averaging 17K tokens based on initial drafts. Patents present a significant challenge to LLMs due to their specialized nature, standardized terminology, and extensive length. 
 
-We propose a multi-agent framework called \textbf{AutoPatent} which leverages the LLM-based planner agent, writer agents, and examiner agent with PGTree and RRAG to generate to craft lengthy, intricate, and high-quality complete patent documents. 
+We propose a multi-agent framework called **AutoPatent** which leverages the LLM-based planner agent, writer agents, and examiner agent with PGTree and RRAG to generate to craft lengthy, intricate, and high-quality complete patent documents. 
 
 <img style="margin:auto;" src='./static/images/figure2.png'>
 
