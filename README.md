@@ -127,3 +127,16 @@ We support the following metrics:
 
 Note: Evaluation of your own draft is not required in this section.
 
+## Citation
+
+If you find this repository helpful, please consider citing the following paper:
+
+```bib
+coming soon...
+```
+
+## Contact
+<!-- email -->
+
+If you have any questions, feel free to contact us at `wangqiyao@mail.dlut.edu.cn` or `sw.ni@siat.ac.cn`.
+
