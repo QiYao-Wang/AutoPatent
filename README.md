@@ -1,5 +1,5 @@
 <h3 align="center"><img style="margin:auto;" src='./static/images/logo.png' width=300px></h3>
-<h3 align="center"><img style="margin:auto;" src='./static/images/logo.png' width=300px><strong>AutoPatent</strong>: A Multi-Agent Framework for Automatic Patent Generation</h3>
+<h3 align="center"><strong>AutoPatent</strong>: A Multi-Agent Framework for Automatic Patent Generation</h3>
 
   <p align="center">
     <a href="https://QiYao-Wang.github.io/">Qiyao Wang</a><sup>1,2*</sup>,
