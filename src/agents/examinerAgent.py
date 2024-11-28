@@ -19,9 +19,7 @@ Please tell me if this section of the draft meets the quality standards."""
 Please tell me if this section of the draft meets the quality standards."""
         prompts = [prompt1, prompt2, prompt3, prompt4, prompt5]
         user_message = prompts[i - 1]
-        # st.write(user_message)
         response = self.chat(user_message=user_message, system_message=system_message)
-        # st.write(response)
         result_pattern = rf"(?<=<Result>).*?(?=</Result>)"
         result = re.findall(result_pattern, response, re.DOTALL)[0].strip()
         reason_pattern = rf"(?<=<Reason>).*?(?=</Reason>)"
