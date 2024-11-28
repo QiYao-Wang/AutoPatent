@@ -7,8 +7,8 @@
     <a>Shule Lu</a><sup>2</sup>,
     <a>Guhong Chen</a><sup>1,3</sup>,
     <br>
-    <a>Xi Feng</a><sup>3</sup>,
-    <a>Chi Wei</a><sup>3</sup>,
+    <a>Xi Feng</a><sup>1</sup>,
+    <a>Chi Wei</a><sup>1</sup>,
     <a>Yuan Lin</a><sup>2†</sup>,
     <a>Min Yang</a><sup>1†</sup>
     <br>
