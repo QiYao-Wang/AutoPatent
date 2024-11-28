@@ -3,15 +3,15 @@
 
   <p align="center">
     <a href="https://QiYao-Wang.github.io/">Qiyao Wang</a><sup>1,2*</sup>,
-    <a href="https://nishiwen1214.github.io/">Shiwen Ni</a><sup>1*</sup>,
+    <a href="https://nishiwen1214.github.io/">Shiwen Ni</a><sup>1,4*</sup>,
     <a>Huaren Liu</a><sup>2</sup>,
     <a>Shule Lu</a><sup>2</sup>,
     <a>Guhong Chen</a><sup>1,3</sup>,
     <br>
     <a>Xi Feng</a><sup>1</sup>,
-    <a>Chi Wei</a><sup>1</sup>,
+    <a>Chi Wei</a><sup>1,4</sup>,
     <a>Yuan Lin</a><sup>2†</sup>,
-    <a>Min Yang</a><sup>1†</sup>
+    <a>Min Yang</a><sup>1,4†</sup>
     <br>
     *Equal Contribution, † Corresponding Authors.
     <br>
@@ -21,6 +21,7 @@
     <br>
     <sup>3</sup>Southern University of Scienceand Technology
     <br>
+    <sup>4</sup>Shenzhen Key Laboratory for High Performance Data Mining
 </p>
 
 <div align="center">
@@ -122,7 +123,7 @@ We support the following metrics:
 - BLEU: Configurable with different k values using --bleu_k.
 - ROUGE: Includes ROUGE-1, ROUGE-2, and ROUGE-L.
 - IRR: Configurable with different thresholds using --threshold.
-- Token Count.
+- Token.
 
 Note: Evaluation of your own draft is not required in this section.
 
