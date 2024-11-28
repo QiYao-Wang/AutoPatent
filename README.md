@@ -38,5 +38,6 @@
 - [2024-08-30] Research Beginning.
 - [2024-11-26] We will release our paper, code and data in recent days.
 - [2024-11-27] We release the first version video of demo and website.
+- [2024.11.28] We have released our data at [huggingface](https://huggingface.co/datasets/QiYao-Wang/D2P).
 
 
