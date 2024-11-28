@@ -1,4 +1,4 @@
-<img src='./static/images/logo.png' width=300px>
+<img align="center" src='./static/images/logo.png' width=300px>
 <h3 align="center"><strong>AutoPatent</strong>: A Multi-Agent Framework for Automatic Patent Generation</h3>
 
   <p align="center">
