@@ -3,25 +3,25 @@
 
   <p align="center">
     <a href="https://QiYao-Wang.github.io/">Qiyao Wang</a><sup>1,2*</sup>,
-    <a href="https://nishiwen1214.github.io/">Shiwen Ni</a><sup>1,4*</sup>,
+    <a href="https://nishiwen1214.github.io/">Shiwen Ni</a><sup>1*</sup>,
     <a>Huaren Liu</a><sup>2</sup>,
     <a>Shule Lu</a><sup>2</sup>,
     <a>Guhong Chen</a><sup>1,3</sup>,
     <br>
     <a>Xi Feng</a><sup>1</sup>,
-    <a>Chi Wei</a><sup>1,4</sup>,
+    <a>Chi Wei</a><sup>1</sup>,
+    <a>Qiang Qu</a><sup>1</sup>,
     <a>Yuan Lin</a><sup>2†</sup>,
-    <a>Min Yang</a><sup>1,4†</sup>
+    <a>Min Yang</a><sup>1†</sup>
     <br>
     *Equal Contribution, † Corresponding Authors.
     <br>
-    <sup>1</sup>Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
+    <sup>1</sup>Shenzhen Key Laboratory for High Performance Data Mining, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
     <br>
     <sup>2</sup>Dalian University of Technology
     <br>
     <sup>3</sup>Southern University of Scienceand Technology
     <br>
-    <sup>4</sup>Shenzhen Key Laboratory for High Performance Data Mining
 </p>
 
 <div align="center">
