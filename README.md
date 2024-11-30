@@ -161,7 +161,7 @@ We invite three experts who are **familiar with the patent law** and **patent dr
 #### Zero-Shot Prompting
 The prompt is provided in Appendix C.1 of the paper.
 
-Models:
+**Models:**
 - Commercial Model
   - GPT-4o
   - GPT-4o-mini
@@ -169,6 +169,13 @@ Models:
   - LLAMA3.1 (8B and 70B)
   - Qwen2.5 (7B, 14B, 32B and 72B)
   - Mistral-7B
+ 
+#### Supervised Fine-Tuning
+We utilize 1,500 draft-patent pairs from D2P’s training set to perform fully supervised fine-tuning on LLAMA3.1-8B, Qwen2.5-7B, and Mistral-7B models (each with fewer than 14 billion parameters).
+
+### Results
+#### Objective Metric Results
+<img style="margin:auto;" src='./static/images/objective-metric-results.png' width=300px>
 
 
 ## Citation
