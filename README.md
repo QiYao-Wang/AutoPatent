@@ -208,6 +208,8 @@ The fine-tuning process leverages [LLaMA-Factory](https://github.com/hiyouga/LLa
 ## Demo
 We have released the first demo video of AutoPatent on our [website](https://qiyao-wang.github.io/Autopatent).
 
+<img style="margin:auto;" src='./static/images/demo-v1.png' width=600px>
+
 A publicly accessible demo will be available soon.
 
 ## Citation
