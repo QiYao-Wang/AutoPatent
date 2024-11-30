@@ -159,7 +159,7 @@ We invite three experts who are **familiar with the patent law** and **patent dr
 
 ### Compared Method
 #### Zero-Shot Prompting
-The prompt as shown in Appendix C.1 in paper.
+The prompt is provided in Appendix C.1 of the paper.
 
 Models:
 - Commercial Model
