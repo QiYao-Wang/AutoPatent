@@ -42,6 +42,8 @@
 - [2024-11-28] We release our data at [huggingface](https://huggingface.co/datasets/QiYao-Wang/D2P).
 - [2024-11-29] We release our code at [github](https://github.com/QiYao-Wang/AutoPatent).
 
+## Table of Contents
+
 ## 📖 Overview
 
 We introduce a novel and practical task known as **Draft2Patent**, along with its corresponding **D2P benchmark**, which challenges LLMs to generate full-length patents averaging 17K tokens based on initial drafts. Patents present a significant challenge to LLMs due to their specialized nature, standardized terminology, and extensive length. 
