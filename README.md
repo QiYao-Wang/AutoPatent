@@ -180,7 +180,6 @@ We utilize 1,500 draft-patent pairs from D2P’s training set to perform fully s
 #### Human Evaluation Results
 <img style="margin:auto;" src='./static/images/human-evaluation-results.png' width=600px>
 
-
 ## Citation
 
 If you find this repository helpful, please consider citing the following paper:
