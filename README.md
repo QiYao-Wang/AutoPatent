@@ -173,6 +173,8 @@ The prompt is provided in Appendix C.1 of the paper.
 #### Supervised Fine-Tuning
 We utilize 1,500 draft-patent pairs from D2P’s training set to perform fully supervised fine-tuning on LLAMA3.1-8B, Qwen2.5-7B, and Mistral-7B models (each with fewer than 14 billion parameters).
 
+The fine-tuning process leverages [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) as the tool for efficiently fine-tuning models.
+
 ### Results
 #### Objective Metric Results
 <img style="margin:auto;" src='./static/images/objective-metric-results.png' width=600px>
