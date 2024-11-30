@@ -128,7 +128,19 @@ We support the following metrics:
 
 Note: Evaluation of your own draft is not required in this section.
 
-## 
+## Experiment Detail
+
+### Metric
+We use the n-gram-based metric, BLEU, the F1 scores of ROUGE-1, ROUGE-2, and ROUGE-L as the objective metrics. 
+
+We propose a new metric, termed IRR (Inverse Repetition Rate), to measure the degree of sentence repetition within the patent $\mathcal{P}=\{s_i|1\le i\le n\}$, which consists of $n$ sentences. 
+
+The {IRR} is defined as:
+
+$$
+IRR (\mathcal{P}, t) = \frac{C_n^2}{\sum_{i=1}^{n-1} \sum_{j=i+1}^{n} f(s_i, s_j) + \varepsilon}
+$$
+
 
 ## Citation
 
