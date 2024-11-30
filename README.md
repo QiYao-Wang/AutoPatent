@@ -136,9 +136,18 @@ We use the n-gram-based metric, BLEU, the F1 scores of ROUGE-1, ROUGE-2, and ROU
 We propose a new metric, termed IRR (Inverse Repetition Rate), to measure the degree of sentence repetition within the patent $\mathcal{P}=\{s_i|1\le i\le n\}$, which consists of $n$ sentences. 
 
 The {IRR} is defined as:
-
 $$
 IRR (\mathcal{P}, t) = \frac{C_n^2}{\sum_{i=1}^{n-1} \sum_{j=i+1}^{n} f(s_i, s_j) + \varepsilon}
+$$
+Where the time complexity of the IRR metric is O(n^2), $\varepsilon$ is a small value added for smoothing to prevent division by zero, and $t$ is threshold for determining whether two sentences, $s_i$ and $s_j$, are considered repetitions based on their Jaccard similarity $J$, calculated after removing stop words.
+
+The function $f(s_i, s_j)$ is defined as:
+$$
+f(s_i, s_j) =
+	\begin{cases}
+	1, & \text{if } J(s_i, s_j) \geq t, \\
+	0, & \text{if } J(s_i, s_j) < t.
+	\end{cases}
 $$
 
 
