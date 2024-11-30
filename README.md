@@ -153,6 +153,7 @@ f(s_i, s_j) =
 	\end{cases}
 $$
 
+We invite three experts who are **familiar with the patent law** and **patent drafting** to evaluate the quality of generated patent using a single-bind review. 
 
 ## Citation
 
