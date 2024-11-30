@@ -131,6 +131,7 @@ Note: Evaluation of your own draft is not required in this section.
 ## Experiment Detail
 
 ### Metric
+#### Objective Metric
 We use the n-gram-based metric, BLEU, the F1 scores of ROUGE-1, ROUGE-2, and ROUGE-L as the objective metrics. 
 
 We propose a new metric, termed IRR (Inverse Repetition Rate), to measure the degree of sentence repetition within the patent $\mathcal{P}=\\{s_i|1\le i\le n\\}$, which consists of $n$ sentences. 
@@ -153,7 +154,22 @@ f(s_i, s_j) =
 	\end{cases}
 $$
 
+#### Human Evaluation
 We invite three experts who are **familiar with the patent law** and **patent drafting** to evaluate the quality of generated patent using a single-bind review. 
+
+### Compared Method
+#### Zero-Shot Prompting
+The prompt as shown in Appendix C.1 in paper.
+
+Models:
+- Commercial Model
+  - GPT-4o
+  - GPT-4o-mini
+- Open source model
+  - LLAMA3.1 (8B and 70B)
+  - Qwen2.5 (7B, 14B, 32B and 72B)
+  - Mistral-7B
+
 
 ## Citation
 
