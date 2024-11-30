@@ -44,6 +44,8 @@
 
 ## Table of Contents
 
+- [Overview](#📖-Overview)
+
 ## 📖 Overview
 
 We introduce a novel and practical task known as **Draft2Patent**, along with its corresponding **D2P benchmark**, which challenges LLMs to generate full-length patents averaging 17K tokens based on initial drafts. Patents present a significant challenge to LLMs due to their specialized nature, standardized terminology, and extensive length. 
