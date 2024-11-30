@@ -44,7 +44,25 @@
 
 ## Table of Contents
 
-- [Overview](#📖-Overview)
+- [Overview](#-overview)
+- [Quick Start](#-overview)
+  - [Environment Setup](#environment-setup)
+  - [Configuration Setup](#configuration-setup)
+  - [Submit Your Draft](#submit-your-draft)
+    - [User Pattern](#user-pattern)
+    - [Test Pattern](#test-pattern)
+- [Experiment Detail](#experiment-detail)
+  - [Metric](#metric)
+    - [Objective Metric](#objective-metric)
+    - [Human Evaluation](#human-evaluation)
+  - [Compared Method](#compared-method)
+    - [Zero-Shot Prompting](#zero-shot-prompting)
+    - [Supervised Fine-Tuning](#supervised-fine-tuning)
+  - [Results](#results)
+    - [Objective Metric Results](#objective-metric-results)
+    - [Human Evaluation Results](#human-evaluation-results)
+- [Citation](#citation)
+- [Contact](#contact)
 
 ## 📖 Overview
 
