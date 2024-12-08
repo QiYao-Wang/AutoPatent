@@ -74,82 +74,8 @@ We propose a multi-agent framework called **AutoPatent** which leverages the LLM
 <img style="margin:auto;" src='./static/images/figure2.png'>
 
 ## 🧐 Quick Start
-### Environment Setup
-First, you should set up a python environment. We have tested our code under python 3.10.
 
-Note: If you just use the GPT series model with OpenAI API Key, you need not install vllm.
-```cmd
-git clone https://github.com/QiYao-Wang/AutoPatent.git
-
-conda create -n autopatent python=3.10
-conda activate autopatent
-cd AutoPatent # the file path you clone
-
-export PYTHONPATH=xxxx/AutoPatent/src
-pip install -r requirements.txt
-
-mkdir data # in AutoPatent file if you don't have this directory
-mkdir outputs # in AutoPatent file
-```
-
-### Configuration Setup
-If you just use the GPT series model with OpenAI API Key, you just need to config the "Openai-api-key" with your key.
-
-If you use other open-source LLMs, you need to configure all agents with their respective model paths and API keys and deploy them using vLLM.
-```cmd
-CUDA_VISIBLE_DEVICES=X python -m vllm.entrypoints.openai.api_server --model model_path --gpu_memory_utilization 0.X --api-key model_api --port xxxx
-```
-
-### Submit Your Draft 
-#### User Pattern
-
-In this section, you need choose pattern "own" in "src/config.yml".
-
-To obtain a high-quality patent, you need to submit a draft that answers five questions to provide sufficient information about your invention.
-1. What is the technical problem that this patent aims to solve?
-2. What is the technical background of this invention, the most similar existing solutions, and its advantages over these solutions?
-3. What is the detailed technical solution of the invention?
-4. What are the key points of the invention, and which points are intended to be protected?
-5. What is the detailed description of each figure individually?
-
-We provide a Python program to convert your answers into a JSON file for use with AutoPatent.
-```cmd
-sh scripts/draft.sh
-```
-
-#### Test Pattern
-In this section, you need choose pattern "test" in "src/config.yml" and download test set with script below:
-```cmd
-sh scripts/download.sh
-```
-
-### Run AutoPatent
-```cmd
-sh scripts/run.sh
-```
-
-### Evaluation
-When you use D2P's test set, you can use this script to evaluate the performance.
-
-Before evaluation, please download the NLTK stopwords and punkt tokenizer.
-```python
-import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
-```
-
-Then you can use the script to run evaluation.
-```cmd
-python metric.py --dataset absolute_data_path --metric METRIC_YOU_CHOOSE
-```
-We support the following metrics:
-
-- BLEU: Configurable with different k values using --bleu_k.
-- ROUGE: Includes ROUGE-1, ROUGE-2, and ROUGE-L.
-- IRR: Configurable with different thresholds using --threshold.
-- Token.
-
-Note: Evaluation of your own draft is not required in this section.
+We will make the data and code avaliable upon the paper be accepted.
 
 ## Experiment Detail
 
