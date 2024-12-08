@@ -120,7 +120,7 @@ The fine-tuning process leverages [LLaMA-Factory](https://github.com/hiyouga/LLa
 <img style="margin:auto;" src='./static/images/objective-metric-results.png' width=600px>
 
 #### Human Evaluation Results
-<img style="margin:auto;" src='./static/images/human-evaluation-results.png' width=600px>
+<img style="margin:auto;" src='./static/images/human-evaluation-results.png'>
 
 ## Demo
 We have released the first demo video of AutoPatent on our [website](https://qiyao-wang.github.io/Autopatent).
