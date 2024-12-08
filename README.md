@@ -37,10 +37,6 @@
 ## 📢 News
 
 - [2024-08-30] Research Beginning.
-- [2024-11-26] We will release our paper, code and data in recent days.
-- [2024-11-27] We release the first version video of demo and website.
-- [2024-11-28] We release our data at [huggingface](https://huggingface.co/datasets/QiYao-Wang/D2P).
-- [2024-11-29] We release our code at [github](https://github.com/QiYao-Wang/AutoPatent).
 
 ## Table of Contents
 
