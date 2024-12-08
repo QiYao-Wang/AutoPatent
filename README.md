@@ -46,11 +46,6 @@
 
 - [Overview](#-overview)
 - [Quick Start](#-overview)
-  - [Environment Setup](#environment-setup)
-  - [Configuration Setup](#configuration-setup)
-  - [Submit Your Draft](#submit-your-draft)
-    - [User Pattern](#user-pattern)
-    - [Test Pattern](#test-pattern)
 - [Experiment Detail](#experiment-detail)
   - [Metric](#metric)
     - [Objective Metric](#objective-metric)
@@ -75,7 +70,7 @@ We propose a multi-agent framework called **AutoPatent** which leverages the LLM
 
 ## 🧐 Quick Start
 
-We will make the data and code avaliable upon the paper be accepted.
+We will make the data and code available upon the paper be accepted.
 
 ## Experiment Detail
 
