@@ -12,7 +12,7 @@
     <a>Chi Wei</a><sup>1</sup>,
     <a>Qiang Qu</a><sup>1</sup>,
     <a>Yuan Lin</a><sup>2†</sup>,
-    <a>Min Yang</a><sup>1†</sup>
+    <a>Min Yang</a><sup>1,4†</sup>
     <br>
     *Equal Contribution, † Corresponding Authors.
     <br>
@@ -22,6 +22,7 @@
     <br>
     <sup>3</sup>Southern University of Scienceand Technology
     <br>
+    <sup>4</sup>Shenzhen University of Advanced Technology
 </p>
 
 <div align="center">
