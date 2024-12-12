@@ -11,6 +11,7 @@
     <a>Xi Feng</a><sup>1</sup>,
     <a>Chi Wei</a><sup>1</sup>,
     <a>Qiang Qu</a><sup>1</sup>,
+    <a>Hamid Alinejad-Rokny</a><sup>5</sup>,
     <a>Yuan Lin</a><sup>2†</sup>,
     <a>Min Yang</a><sup>1,4†</sup>
     <br>
@@ -23,6 +24,8 @@
     <sup>3</sup>Southern University of Scienceand Technology
     <br>
     <sup>4</sup>Shenzhen University of Advanced Technology
+    <br>
+    <sup>5</sup>The University of New South Wales
 </p>
 
 <div align="center">
@@ -38,6 +41,7 @@
 ## 📢 News
 
 - [2024-08-30] Research Beginning.
+- [2024-12-13] We have submitted our paper to arXiv, and it will be publicly available soon.
 
 ## Table of Contents
 
