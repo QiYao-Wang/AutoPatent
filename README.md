@@ -42,6 +42,7 @@
 
 - [2024-08-30] Research Beginning.
 - [2024-12-13] We have submitted our paper to arXiv, and it will be publicly available soon.
+- [2024-12-13] We have released the initial version of AutoPatent on GitHub. The complete code and data will be made publicly available following the paper’s acceptance.
 
 ## Table of Contents
 
