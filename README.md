@@ -29,7 +29,7 @@
 </p>
 
 <div align="center">
- <a href=''><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href='https://arxiv.org/pdf/2412.09796'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <!-- <a href='https://arxiv.org/abs/[]'><img src='https://img.shields.io/badge/arXiv-[]-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
  <a href='https://QiYao-Wang.github.io/AutoPatent/'><img src='https://img.shields.io/badge/Website-Page-Yellow'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  <a href=''><img src='https://img.shields.io/badge/License-MIT-blue'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -43,6 +43,7 @@
 - [2024-08-30] Research Beginning.
 - [2024-12-13] We have submitted our paper to arXiv, and it will be publicly available soon.
 - [2024-12-13] We have released the initial version of AutoPatent on GitHub. The complete code and data will be made publicly available following the paper’s acceptance.
+- [2024-12-16] The paper has been public at Arxiv.
 
 ## Table of Contents
 
