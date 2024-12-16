@@ -141,7 +141,15 @@ A publicly accessible and customizable demo will be available upon the paper's a
 If you find this repository helpful, please consider citing the following paper:
 
 ```bib
-coming soon...
+@article{wang2024autopatentmultiagentframeworkautomatic,
+      title={AutoPatent: A Multi-Agent Framework for Automatic Patent Generation}, 
+      author={Qiyao Wang and Shiwen Ni and Huaren Liu and Shule Lu and Guhong Chen and Xi Feng and Chi Wei and Qiang Qu and Hamid Alinejad-Rokny and Yuan Lin and Min Yang},
+      year={2024},
+      eprint={2412.09796},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.09796}, 
+}
 ```
 
 ## Contact
