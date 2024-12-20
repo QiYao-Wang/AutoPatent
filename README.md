@@ -44,6 +44,7 @@
 - [2024-12-13] We have submitted our paper to arXiv, and it will be publicly available soon.
 - [2024-12-13] We have released the initial version of AutoPatent on GitHub. The complete code and data will be made publicly available following the paper’s acceptance.
 - [2024-12-16] The paper has been public at Arxiv.
+- [2024-12-20] This work has been fortunate to receive attention and coverage from Xin Zhi Yuan, and it will continue to be expanded and improved in the future. [[News](https://mp.weixin.qq.com/s/H6zsbruPl4wtYOFCOIphBA)]
 
 ## Table of Contents
 
