@@ -154,6 +154,10 @@ If you find this repository helpful, please consider citing the following paper:
 }
 ```
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=QiYao-Wang/AutoPatent&type=Date)](https://star-history.com/#QiYao-Wang/AutoPatent&Date)
+
 ## Contact
 <!-- email -->
 
