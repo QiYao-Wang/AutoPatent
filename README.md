@@ -1,3 +1,8 @@
+
+```
+Note: We will make the data and code available upon the paper's acceptance.
+```
+
 <h3 align="center"><img style="margin:auto;" src='./static/images/logo.png' width=300px></h3>
 <h3 align="center"><strong>AutoPatent</strong>: A Multi-Agent Framework for Automatic Patent Generation</h3>
 
@@ -37,10 +42,6 @@
  <br>
  <br>
 </div>
-
-```
-Note: We will make the data and code available upon the paper's acceptance.
-```
 
 ## 📢 News
 
