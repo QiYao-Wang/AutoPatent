@@ -26,7 +26,7 @@ Note: We will make the data and code available upon the paper's acceptance.
     <br>
     <sup>2</sup>Dalian University of Technology
     <br>
-    <sup>3</sup>Southern University of Scienceand Technology
+    <sup>3</sup>Southern University of Science and Technology
     <br>
     <sup>4</sup>Shenzhen University of Advanced Technology
     <br>
