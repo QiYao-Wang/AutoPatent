@@ -149,13 +149,10 @@ If you find this repository helpful, please consider citing the following paper:
 
 ```bib
 @article{wang2024autopatent,
-      title={AutoPatent: A Multi-Agent Framework for Automatic Patent Generation}, 
-      author={Qiyao Wang and Shiwen Ni and Huaren Liu and Shule Lu and Guhong Chen and Xi Feng and Chi Wei and Qiang Qu and Hamid Alinejad-Rokny and Yuan Lin and Min Yang},
-      year={2024},
-      eprint={2412.09796},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2412.09796}, 
+  title={AutoPatent: A Multi-Agent Framework for Automatic Patent Generation},
+  author={Wang, Qiyao and Ni, Shiwen and Liu, Huaren and Lu, Shule and Chen, Guhong and Feng, Xi and Wei, Chi and Qu, Qiang and Alinejad-Rokny, Hamid and Lin, Yuan and others},
+  journal={arXiv preprint arXiv:2412.09796},
+  year={2024}
 }
 ```
 
