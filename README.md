@@ -62,6 +62,7 @@ Note: We will make the data and code available upon the paper's acceptance.
     - [Human Evaluation](#human-evaluation)
   - [Compared Method](#compared-method)
     - [Zero-Shot Prompting](#zero-shot-prompting)
+    - [Few-Shot Prompting](#few-shot-prompting)
     - [Supervised Fine-Tuning](#supervised-fine-tuning)
   - [Results](#results)
     - [Objective Metric Results](#objective-metric-results)
@@ -123,6 +124,9 @@ The prompt is provided in Appendix C.1 of the paper.
   - LLAMA3.1 (8B and 70B)
   - Qwen2.5 (7B, 14B, 32B and 72B)
   - Mistral-7B
+
+#### Few-Shot Prompting
+We leverage few-shot prompting as a stronger baseline, providing from one to three examples before target draft. The average input length exceeds 20K tokens for one-shot, 60K tokens for two-shot, and 80K tokens for three-shot. This challenge for models with smaller context windows, such as GPT-4o-mini with a maximum length of 16,384 tokens and Mistral with a maximum length of 32K tokens. In this situation, we opt to conduct this experiment on Qwen2.5-7B and LLAMA3.1-8B.
  
 #### Supervised Fine-Tuning
 We utilize 1,500 draft-patent pairs from D2P’s training set to perform fully supervised fine-tuning on LLAMA3.1-8B, Qwen2.5-7B, and Mistral-7B models (each with fewer than 14 billion parameters).
