@@ -51,6 +51,7 @@ Note: We will make the data and code available upon the paper's acceptance.
 - [2024-12-16] The paper has been public at Arxiv.
 - [2024-12-20] This work has been fortunate to receive attention and coverage from Xin Zhi Yuan, and it will continue to be expanded and improved in the future. [[News](https://mp.weixin.qq.com/s/H6zsbruPl4wtYOFCOIphBA)]
 - [2024-12-20] We have released 10 generated patent samples in this GitHub repository. Please see the “example” folder.
+- [2025-03-09] We have added the few-shot experimental results.
 
 ## Table of Contents
 
