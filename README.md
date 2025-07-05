@@ -36,7 +36,7 @@ Note: We will make the data and code available upon the paper's acceptance.
 <div align="center">
  <a href='https://arxiv.org/pdf/2412.09796'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <!-- <a href='https://arxiv.org/abs/[]'><img src='https://img.shields.io/badge/arXiv-[]-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
- <a href='https://QiYao-Wang.github.io/AutoPatent/'><img src='https://img.shields.io/badge/Website-Page-Yellow'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href='https://autopatent.wangqiyao.me/'><img src='https://img.shields.io/badge/Website-Page-Yellow'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  <a href=''><img src='https://img.shields.io/badge/License-MIT-blue'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  <a href=''><img src='https://img.shields.io/badge/Demo-Page-Green'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  <br>
