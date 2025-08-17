@@ -17,6 +17,7 @@ Note: We will make the data and code available upon the paper's acceptance.
     <a>Chi Wei</a><sup>1</sup>,
     <a>Qiang Qu</a><sup>1</sup>,
     <a>Hamid Alinejad-Rokny</a><sup>5</sup>,
+	<a>Chengming Li</a><sup>6</sup>,
     <a>Yuan Lin</a><sup>2†</sup>,
     <a>Min Yang</a><sup>1,4†</sup>
     <br>
@@ -31,6 +32,8 @@ Note: We will make the data and code available upon the paper's acceptance.
     <sup>4</sup>Shenzhen University of Advanced Technology
     <br>
     <sup>5</sup>The University of New South Wales
+	<br>
+	<sup>6</sup>Shenzhen MSU-BIT University
 </p>
 
 <div align="center">
