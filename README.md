@@ -85,7 +85,7 @@ We propose a multi-agent framework called **AutoPatent** which leverages the LLM
 
 ## 🧐 Quick Start
 
-We will make the data and code available upon the paper's acceptance.
+❗️ We will make the data and code available upon the paper's acceptance.
 
 ## Experiment Detail
 
