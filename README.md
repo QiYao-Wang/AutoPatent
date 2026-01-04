@@ -171,5 +171,5 @@ If you find this repository helpful, please consider citing the following paper:
 ## Contact
 <!-- email -->
 
-If you have any questions, feel free to contact us at `wangqiyao@mail.dlut.edu.cn` or `sw.ni@siat.ac.cn`.
+If you have any questions, feel free to contact us at `wangqiyao25@mails.ucas.ac.cn` or `sw.ni@siat.ac.cn`.
 
